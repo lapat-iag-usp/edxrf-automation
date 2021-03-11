@@ -54,34 +54,36 @@ del samplelist.txt
 
 CSCRIPT //NoLogo input.vbs %FILTER_AREA% %OUTPUT_NAME%
 @echo on
+pause
 exit
-(
-echo 1
-echo S
-echo %FILTER_AREA%
-echo N
-echo N
-echo blanklist
-echo linhak2021
-echo linhal2021
-echo 2
-echo 11
-echo 20
-echo 21
-echo 82
-echo 1
-echo 0
-echo 1
-echo list
-echo linhak2021
-echo linhal2021
-echo 2
-echo 11
-echo 20
-echo 21
-echo 82
-echo %OUTPUT_NAME%
-echo 1
-) | Densidade2.8.4.exe
-DEL list.txt
-endlocal
+
+::(
+::echo 1
+::echo S
+::echo %FILTER_AREA%
+::echo N
+::echo N
+::echo blanklist
+::echo linhak2021
+::echo linhal2021
+::echo 2
+::echo 11
+::echo 20
+::echo 21
+::echo 82
+::echo 1
+::echo 0
+::echo 1
+::echo list
+::echo linhak2021
+::echo linhal2021
+::echo 2
+::echo 11
+::echo 20
+::echo 21
+::echo 82
+::echo %OUTPUT_NAME%
+::echo 1
+::) | Densidade2.8.4.exe
+::DEL list.txt
+::endlocal
